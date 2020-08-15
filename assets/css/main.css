@@ -3194,7 +3194,7 @@
 		display: inline-block;
 	}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1240px) {
 
 			#nav {
 				display: none;
@@ -3237,7 +3237,7 @@
 			width: 3.5em;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1240px) {
 
 			.navPanelToggle {
 				display: block;
@@ -3359,7 +3359,7 @@
 				color: inherit;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1080px) {
 
 			#navPanel {
 				display: block;

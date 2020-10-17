@@ -82,7 +82,7 @@ body {
 
 .bg__first {
   background-image: url(
-https://i.pinimg.com/474x/07/e1/8c/07e18cb1eb45b2e02d2a09ede9e0be91.jpg
+https://images.squarespace-cdn.com/content/v1/53f222ece4b0607c74c991b4/1527336114564-I5PHXS82TEPRAK1SHW9L/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UegTYNQkRo-Jk4EWsyBNhwKrKLo5CceA1-Tdpfgyxoog5ck0MD3_q0rY3jFJjjoLbQ/beans-birthday-cover.jpg?format=2500w
   );
 }
 .bg__first .container {
@@ -106,6 +106,13 @@ https://i.pinimg.com/474x/07/e1/8c/07e18cb1eb45b2e02d2a09ede9e0be91.jpg
   );
 }
 
+.bg__another {
+  height: 100vh;
+
+  background-image: url(
+    https://lh3.googleusercontent.com/Jm4gL5KZQ_RF74pbkMiwXJS0jg0k1FX_ix0mIWkavfQY_PA0SSj8zrWdcLt0NQsKxYypjvv1sCmvhjswA5QBnE4JJHWXai3FBRpyFNxX_jQLh6Wiu8JQ2Ng-4hBLXKcWMWKb7MEjm6Uhl7Lx8su2uaFwJOfKBvogz-4kLyGuEA-KrHEf7xEHUakUkf1peP_iGeQGJ3bmfW90coJ2nliSKYzV76qxmxOsp6Ri07lAg_zXXkmyX2ZnBvnpHTEtGqg2QigT81g14it2Sxl3ZT80W7AyZ5y8L0WEbMUwiwosJm--GQcWPu9DRkA7bx8X08jWqy_z2sJGN8afsCpBRM59A-odHSV9R2gWUkRc8xJQm9D7qCL9BWrmtcLssNTj5wuuUh0WacIJWw48Ty4huYz8exnc9IFDJInQhsRcxdvsV42m7N1c3UIxk1tPNrvLv9i9T6JdZ6p0kfHXXWXkGxGQ2UcTMGEUfqWK0rQrO0Mak9rl8dpWFSIlP-GYUPlYT8UA8ME3ZbEB7fZWkcmhWRph53LrFCsTMwiDbqT-9mBONh75kyWLtdbFQbrGza_j0JHk-35d6czTKKLTMxtWnX5xRm22ml8kAh5_Vkw0pc2piHJKV0A-LUdNjIThX8yzgMp8deiPUuXhiCYjvX2w-svcnpBh42467HAZDR9dUnlVi9uqP1Ph49U-TuQyVZvuJA=w1232-h1642-no?authuser=0
+  );
+}
 .bg__fourth {
   height: 100vh;
 

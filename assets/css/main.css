@@ -22,6 +22,12 @@
 
 /* Basic */
 
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 100%;
+}
+
 	@-ms-viewport {
 		width: device-width;
 	}

@@ -71,7 +71,8 @@ export default function Page() {
         <div className="relative h-80 mb-4">
           <Image
             alt=""
-            src={car}
+            src={car
+            }
             fill
             sizes="(max-width: 768px) 283px, 33vw"
             priority

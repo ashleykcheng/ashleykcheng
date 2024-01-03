@@ -4,7 +4,7 @@ Welcome to my GitHub profile!
 
 ## 🚀 About Me
 - 🎓 Currently studying Computer Science at UCLA
-- 🌱 I’m currently learning full-stack development, natural language processing, and machine learning
+- 🌱 Learning full-stack development and machine learning
 - 📫 How to reach me: ashleykcheng@ucla.edu
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: I love playing basketball!

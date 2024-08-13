@@ -1,58 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ashley Cheng</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body class="">
-        <h1 class="text-center m-4">👋 hi, i'm ashley cheng </h1>
-        <p class = "text-center">CS at UCLA. Basketball + Good Music + Tasty Food = Happy Life</p>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <a href="https://drive.google.com/file/d/1Liu1wv-vO0NKhg29v_ExfzpISJjjw615/view?usp=sharing" class="d-block">Resume</a>
-                </div>
-                <div class="col-auto">
-                    <a href="https://github.com/ashleykcheng" class="d-block">Github</a>
-                </div>
-                <div class="col-auto">
-                    <a href="https://open.spotify.com/user/ucwaqdenj3rrs0e3dvt62u667?si=df5fddaca62943c7" class="d-block">Spotify</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="mb-4">things im doing</h2>
-                    <h4>SWE Intern at Liberty Mutual <i></i></h4>
-                        <p>Helping your favorite insurance company's documents pipeline be more efficient</p>
-                    <h4>External Vice President @ UPE</h4>
-                        <p>Leading 50+ officers in industry relations</p>
-                    <h4><a href="https://www.warriorunified.com/">Warrior Unified</a></h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="mb-4">things i did</h2>
-                    <h4>SWE Intern at Foresight Automation</h4>
-                        <p>Improved customer support when unexpected things happen</p>
-                    <h4>Engineering Manager at Finterview</h4>
-                        <p>Led a team to build a mock interview platform for students breaking into investment banking</p>
-                    <h4>Accenture SLP</h4>
-                        <p>Mentorship and development from awesome Accenture employees</p>
-                    <h4>AI4ALL Ignite</h4>
-                        <p>Built a collaborative filtering recommendation system to encourage people to eat healthier and be more environmentally friendly </p>
-                    <h4>Data Analytics Intern at Taco Bell</h4>
-                        <p>Yum! Brands are so yummy. Asking myself: why do people think they are yummy?</p>
-                </div>
-            </div>
-            <p>Special shoutout to the the best orgs: Rewriting the Code (RTC), Upsilon Pi Epsilon (UPE), Society of Women Engineers (SWE)</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashley Cheng</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="fw-bold h3 d-block d-lg-none">Ashley Cheng</span>
+          <img
+            src="./assets/images/dress-2.jpg"
+            class="img-fluid d-none d-lg-block  profilepic"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" target="_blank" aria-current="page" href="https://www.warriorunified.com/"
+                >Warrior Unified</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects"
+                >Projects</a
+              >
+            </li>
+            
+          </ul>
+          
         </div>
-       
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
-    
- 
+      </div>
+    </nav>
+    <!-- //NAV BAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME SECTION -->
+      <section id="home" class="full-hight px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="text-uppercase display-4 fw-bold" data-aos="fade-up">
+                👋 Hi, i'm Ashley Cheng 
+              </h1>
+              <h2>(she/her)</h2>
+              <p
+                class="lead mt-2 mb-3 fs-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+              Developer. Advocate. CS Major @ UCLA. </br>
+              I love building things with software. I also advocate for tech accessibility, and the inclusion of LGBTQIA+ and neurodivergent individuals in tech.
+              
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a target = "_blank" href="https://drive.google.com/file/d/1qaK9VgERhcglJ9A8E2sluFLkV3XNEDCS/view?usp=sharing" class="btn btn-brand fw-bold me-4">
+                  Resume</a
+                >
+                <a target="_blank" href="https://www.linkedin.com/in/ashleykcheng/">
+                  <i class="lab la-linkedin-in social-icons"></i>
+              </a>
+                <a target="_blank" href="https://github.com/ashleykcheng">
+                    <i class="lab la-github social-icons"></i>
+                </a>
+                
+              </div>
+              
+            </div>
+          
+
+          </div>
+          
+        </div>
+      </section>
+      <!-- //HOME SECTION -->
+
+       <!-- ABOUT -->
+       <section id="about" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8">
+              <h6>ABOUT</h6>
+              <h1>Currently</h1>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">SWE Intern @ Liberty Mutual</h5>
+                <p>
+                    Reducing costs and minimizing engineering support efforts through the document solutions team.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">External Vice President @ Upsilon Pi Epsilon</h5>
+                <p>
+                  Managing industry relations and DEI initiatives for the UCLA computer science community.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row p-4">
+            <div class="col-md-8" >
+              <h1>Previously</h1>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Accenture Student Leadership Program - PRIDE Track</h5>
+                
+                <p>
+                  Receiving mentorship and professional development from Accenture.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Engineering Manager @ Finterview</h5>
+                <p>
+                  Working on bringing accessible Finance interview prep to undergraduate students with UCLA's DevX. Powering Large Language Models to give customizable interviews with instant feedback.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Machine Learning Fellow @ AI4ALL Ignite</h5>
+                <p>
+                  AI accelerator: creating a project with mentorship from AI industry experts
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos-delay="600">
+              <div class="col-md-8" >
+              </div>
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">SWE Intern @ Foresight Automation</h5>
+                <p>
+                  Created a chatbot for quick and easy customer service. Used OpenAI's GPT-3.5 and vector databases to provide intelligent conversations based on proprietary information.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row mb-4">
+            <div class="col-md-12">
+              <div class="col-md-8">
+              </div>
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Data Analytics Intern @ Taco Bell</h5>
+                <p>
+                  Analyzed sales trends to inform decisions on marketing campaigns.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+      
+
+      <!-- WORK -->
+      <section id="projects" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8">
+              <h6>More on my Github!</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6 rounded-4">
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/finterview2.png" />
+                </div>
+                <div class="card-content p-3">
+                  <h4 style="color: black">Finterview</h4>
+                  <p>
+                    Finterview is an AI-powered video interview platform tailored towards aspiring finance professionals. Through progress tracking and instant feedback on first-rate simulated interviews, students get the assistance they need to break into the high finance world.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 rounded-4"
+      
+            >
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/warrior-unified.png" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4 style="color: black">warriorunified.com</h4>
+                  <p>
+                    A Comprehensive Resource Hub
+                    Empowering Families to Overcome Disabilities
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- FOOTER -->
+      <footer class="px-lg-5 py-4">
+        <div class="container m-4">
+          <div class="row justify-content-between gy-4">
+            <div class="col-auto mb-0">
+              <p>Ashley Cheng</p>
+            </div>
+            <div class="col-auto">
+              <p>Email: ashleykcheng@ucla.edu</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+    <!--//CONTENT WRAPPER -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -12,8 +12,8 @@ I'm really interested in distributed systems and tech accessibility. Would love 
 
 ## My Past
 
-**SWE Intern at Duolingo**<br>
-Built a workflow to speed up the translation process by generating translation suggestions in Python.
+**SWE Intern @ Duolingo**<br>
+Built a workflow to reduce UI text translation costs by generating translation suggestions using Python, LLMs, and Apache Airflow.
 
 **SWE Intern @ Liberty Mutual**<br>
 Reduced costs and minimized engineering support efforts using Java for the Document Solutions team.
@@ -24,6 +24,9 @@ Created a chatbot for quick and easy customer service. Used OpenAI's GPT-3.5 and
 ---
 
 ## Other Cool Involvements
+
+**Undergraduate Researcher @ Programmable Software Systems Lab**<br>
+Investigating replication in distributed microservices under Professor Konstantinos Kallas.
 
 **External Vice President @ Upsilon Pi Epsilon**<br>
 Managing industry relations and DEI initiatives for the UCLA computer science community.
